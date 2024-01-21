@@ -1,0 +1,82 @@
+
+body{
+    font-family: 'Handlee', cursive;
+    color: #333;
+    background-image: url(../Assets/img/close-up-pen-with-notebook.jpg);
+    background-size: cover;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+    
+    .tasks:hover{
+        width:80% !important;
+        }
+    
+    .task-form{
+    background-color: #DADDDF;
+    width: 55%;
+    }
+    @media (max-width: 991px) {
+        .task-form{
+            width: 70%;
+            }
+    }
+    @media (max-width: 767px) {
+        .task-form{
+            width: 80%;
+            }
+    }
+    @media (max-width: 567px) {
+        .task-form{
+            width: 90%;
+            }
+            .tasks {
+            width: 85% !important;
+            }
+            .tasks:hover{
+                width:95% !important;
+                }
+    }
+    #task {
+        font-size: 18px !important;
+    }
+    button {
+        background-color: #609EA2 !important;
+        font-size: 18px !important;
+    }
+    button:hover {
+        background-color: #07838b !important;
+    }
+    .tasks{
+    background-color: #A7B99E;
+    cursor: pointer;
+    -webkit-transition:all 0.4s;
+    -o-transition:all 0.4s;
+    transition:all 0.4s;
+    font-size: 19px;
+    text-transform: capitalize;
+    font-family: 'Itim', cursive;
+    }
+    .task p {
+        word-break: break-all;
+    }
+    .complete-task {
+        background-color: #5A9E7C;
+    }
+    
+    .tasks i{
+    padding:10px;
+    }
+    .tasks i.fa-trash:hover{
+        color: #D84545;
+    }
+    .tasks i.fa-circle:hover{
+        color: #12947F;
+    }
+    
+    .form-control:focus {
+        border-color: rgba(51,51,51,.25);
+        -webkit-box-shadow: 0 0 0 .25rem rgba(51,51,51,.25);
+                box-shadow: 0 0 0 .25rem rgba(51,51,51,.25);
+    }
